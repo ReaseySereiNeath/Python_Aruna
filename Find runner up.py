@@ -1,0 +1,5 @@
+n = int(input("Enter n participate: "))
+nums = map(int, input("Enter participate score: ").split(" "))
+setnums= set(nums)
+listnums= list(setnums)
+print("The score of the runner-up is: " +str(listnums[-2]))
